@@ -1,0 +1,102 @@
+body {
+    background-image: url('mona-eendra-vC8wj_Kphak-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #eabd5e;
+}
+
+.header, .newHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text, h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    color: #610094;
+    text-align: center;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(234, 189, 94, 0.5);
+    margin-top: 40px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+}
+
+.days, .hours, .minutes, .seconds {
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #610094;
+    margin-top: 0px;
+}
+
+.new-Text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 100px;
+    color: #610094;
+    text-transform: uppercase;
+}
+
+.newHeader {
+    background-color: rgb(234, 189, 94, 0.5);
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+@media all and (max-width: 915px) {
+    .header-text {
+        font-size: 50px;
+    } 
+    h2, .container-text h3, .colons {
+        font-size: 30px;
+        margin: 5px;
+    }
+    .container-text {
+        width: 70px;
+    }
+    .new-Text {
+        font-size: 40px;
+    }
+} 
+
+@media all and (max-width: 800px) {
+    .header-text, h2, h3, .new-Text {
+    font-size: 40px;
+    text-align: center;
+    }
+    
+}
+    
+@media all and (max-width: 568px) {
+    .header-text, h2, h3, .new-Text {
+    font-size: 30px;
+    text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .colons {
+        display: none;
+    }
+} 
